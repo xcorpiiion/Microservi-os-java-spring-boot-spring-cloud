@@ -4,10 +4,10 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
     <modules>
-        <module>model</module>
-        <module>repository</module>
-        <module>web</module>
-        <module>resource</module>
+        <module>hr-worked-model</module>
+        <module>hr-worked-repository</module>
+        <module>hr-worked-web</module>
+        <module>hr-worked-resource</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
