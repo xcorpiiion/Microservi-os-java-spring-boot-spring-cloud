@@ -10,6 +10,20 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>hr-payroll-resource</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>br.com.study</groupId>
+            <artifactId>hr-payroll-service</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>br.com.study</groupId>
+            <artifactId>hr-payroll-model</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
