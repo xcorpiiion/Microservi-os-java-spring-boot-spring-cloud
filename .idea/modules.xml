@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Microservi-os-java-spring-boot-spring-cloud.iml" filepath="$PROJECT_DIR$/.idea/Microservi-os-java-spring-boot-spring-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hr-eureka-server/hr-eureka-server.iml" filepath="$PROJECT_DIR$/hr-eureka-server/hr-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hr-payroll/hr-payroll.iml" filepath="$PROJECT_DIR$/hr-payroll/hr-payroll.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hr-payroll/hr-payroll-configuration/hr-payroll-configuration.iml" filepath="$PROJECT_DIR$/hr-payroll/hr-payroll-configuration/hr-payroll-configuration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hr-payroll/hr-payroll-model/hr-payroll-model.iml" filepath="$PROJECT_DIR$/hr-payroll/hr-payroll-model/hr-payroll-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hr-payroll/hr-payroll-resource/hr-payroll-resource.iml" filepath="$PROJECT_DIR$/hr-payroll/hr-payroll-resource/hr-payroll-resource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hr-payroll/hr-payroll-service/hr-payroll-service.iml" filepath="$PROJECT_DIR$/hr-payroll/hr-payroll-service/hr-payroll-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hr-payroll/hr-payroll-web/hr-payroll-web.iml" filepath="$PROJECT_DIR$/hr-payroll/hr-payroll-web/hr-payroll-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hr-worker/hr-worker/hr-worked-model/hr-worked-model.iml" filepath="$PROJECT_DIR$/hr-worker/hr-worker/hr-worked-model/hr-worked-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hr-worker/hr-worker/hr-worked-repository/hr-worked-repository.iml" filepath="$PROJECT_DIR$/hr-worker/hr-worker/hr-worked-repository/hr-worked-repository.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hr-worker/hr-worker/hr-worked-web/hr-worked-web.iml" filepath="$PROJECT_DIR$/hr-worker/hr-worker/hr-worked-web/hr-worked-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hr-worker/hr-worker/hr-worker.iml" filepath="$PROJECT_DIR$/hr-worker/hr-worker/hr-worker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hr-worker/hr-worker/hr-worked-resource/resource.iml" filepath="$PROJECT_DIR$/hr-worker/hr-worker/hr-worked-resource/resource.iml" />
+    </modules>
+  </component>
+</project>
