@@ -4,6 +4,8 @@
     <file url="file://$PROJECT_DIR$/hr-api-gateway-zuul/hr-api-gateway-zuul-web/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hr-api-gateway-zuul/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hr-api-gateway-zuul/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hr-config-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hr-config-server/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hr-eureka-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hr-eureka-server/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hr-payroll/hr-payroll-configuration/src/main/java" charset="UTF-8" />
