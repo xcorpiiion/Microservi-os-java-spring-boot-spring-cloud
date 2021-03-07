@@ -14,6 +14,7 @@
         <module name="hr-payroll-resource" />
         <module name="hr-user-web" />
         <module name="hr-config-server" />
+        <module name="hr-user-model" />
         <module name="hr-eureka-server" />
         <module name="hr-payroll-web" />
       </profile>
@@ -40,6 +41,7 @@
       <module name="hr-payroll-service" target="8" />
       <module name="hr-payroll-web" target="8" />
       <module name="hr-user" target="1.8" />
+      <module name="hr-user-model" target="8" />
       <module name="hr-user-web" target="8" />
       <module name="hr-worked-model" target="8" />
       <module name="hr-worked-repository" target="8" />
@@ -61,6 +63,7 @@
       <module name="hr-payroll-service" options="-parameters" />
       <module name="hr-payroll-web" options="-parameters" />
       <module name="hr-user" options="-parameters" />
+      <module name="hr-user-model" options="-parameters" />
       <module name="hr-user-web" options="-parameters" />
       <module name="hr-worked-model" options="-parameters" />
       <module name="hr-worked-repository" options="-parameters" />
