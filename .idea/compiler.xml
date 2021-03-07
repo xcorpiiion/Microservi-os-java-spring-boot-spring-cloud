@@ -7,7 +7,6 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="hr-oauth" />
         <module name="hr-api-gateway-zuul-web" />
         <module name="hr-user-configuration" />
         <module name="hr-payroll-configuration" />
@@ -21,6 +20,7 @@
         <module name="hr-user-model" />
         <module name="hr-eureka-server" />
         <module name="hr-payroll-web" />
+        <module name="hr-oauth-web" />
       </profile>
       <profile name="Annotation profile for hr-worker" enabled="true">
         <sourceOutputDir name="../target/generated-sources/annotations" />
@@ -39,6 +39,7 @@
       <module name="hr-config-server-web" target="8" />
       <module name="hr-eureka-server" target="1.8" />
       <module name="hr-oauth" target="1.8" />
+      <module name="hr-oauth-web" target="8" />
       <module name="hr-payroll" target="1.8" />
       <module name="hr-payroll-configuration" target="8" />
       <module name="hr-payroll-model" target="8" />
@@ -66,6 +67,7 @@
       <module name="hr-config-server-web" options="-parameters" />
       <module name="hr-eureka-server" options="-parameters" />
       <module name="hr-oauth" options="-parameters" />
+      <module name="hr-oauth-web" options="-parameters" />
       <module name="hr-payroll-configuration" options="-parameters" />
       <module name="hr-payroll-model" options="-parameters" />
       <module name="hr-payroll-resource" options="-parameters" />
