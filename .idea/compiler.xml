@@ -2,15 +2,16 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="hr-payroll-service" />
+        <module name="hr-eureka-server" />
         <module name="hr-payroll-configuration" />
         <module name="hr-payroll-model" />
         <module name="hr-payroll-resource" />
-        <module name="hr-eureka-server" />
         <module name="hr-payroll-web" />
       </profile>
       <profile name="Annotation profile for hr-worker" enabled="true">
