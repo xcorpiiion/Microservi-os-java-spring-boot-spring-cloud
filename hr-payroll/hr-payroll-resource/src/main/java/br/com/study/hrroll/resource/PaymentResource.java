@@ -1,9 +1,10 @@
 package br.com.study.hrroll.resource;
 
+import br.com.study.hrroll.dto.PaymentDTO;
 import br.com.study.hrroll.model.Payment;
 import br.com.study.hrroll.service.PaymentServiceImpl;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
-import com.netflix.ribbon.proxy.annotation.Hystrix;
+import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -20,17 +21,20 @@ public class PaymentResource {
     @Autowired
     private PaymentServiceImpl paymentService;
 
+    @Autowired
+    private ModelMapper modelMapper;
+
     @HystrixCommand(fallbackMethod = "findPaymentAlternative")
     @GetMapping("/{workerId}/daysWorked/{daysWorked}")
-    public ResponseEntity<Payment> findPayment(@PathVariable("workerId") Long workerId,
+    public ResponseEntity<PaymentDTO> findPayment(@PathVariable("workerId") Long workerId,
                                                @PathVariable("daysWorked") Integer daysWorked) {
         Payment payment = this.paymentService.findPayment(workerId, daysWorked);
-        return ResponseEntity.ok(payment);
+        return ResponseEntity.ok(this.modelMapper.map(payment, PaymentDTO.class));
     }
 
-    public ResponseEntity<Payment> findPaymentAlternative(Long workerId, Integer daysWorked) {
+    public ResponseEntity<PaymentDTO> findPaymentAlternative(Long workerId, Integer daysWorked) {
         Payment payment = new Payment("Brawnn", BigDecimal.valueOf(400.00), daysWorked);
-        return ResponseEntity.ok(payment);
+        return ResponseEntity.ok(this.modelMapper.map(payment, PaymentDTO.class));
     }
 
 }
