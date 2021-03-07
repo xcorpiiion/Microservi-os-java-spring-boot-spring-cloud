@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Microservi-os-java-spring-boot-spring-cloud.iml" filepath="$PROJECT_DIR$/.idea/Microservi-os-java-spring-boot-spring-cloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/hr-api-gateway-zuul/hr-api-gateway-zuul.iml" filepath="$PROJECT_DIR$/hr-api-gateway-zuul/hr-api-gateway-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hr-api-gateway-zuul/hr-api-gateway-zuul-web/hr-api-gateway-zuul-web.iml" filepath="$PROJECT_DIR$/hr-api-gateway-zuul/hr-api-gateway-zuul-web/hr-api-gateway-zuul-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/hr-eureka-server/hr-eureka-server.iml" filepath="$PROJECT_DIR$/hr-eureka-server/hr-eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/hr-payroll/hr-payroll.iml" filepath="$PROJECT_DIR$/hr-payroll/hr-payroll.iml" />
       <module fileurl="file://$PROJECT_DIR$/hr-payroll/hr-payroll-configuration/hr-payroll-configuration.iml" filepath="$PROJECT_DIR$/hr-payroll/hr-payroll-configuration/hr-payroll-configuration.iml" />
