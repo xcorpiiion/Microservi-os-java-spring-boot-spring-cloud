@@ -14,6 +14,7 @@
       <module fileurl="file://$PROJECT_DIR$/hr-payroll/hr-payroll-service/hr-payroll-service.iml" filepath="$PROJECT_DIR$/hr-payroll/hr-payroll-service/hr-payroll-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/hr-payroll/hr-payroll-web/hr-payroll-web.iml" filepath="$PROJECT_DIR$/hr-payroll/hr-payroll-web/hr-payroll-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/hr-user/hr-user.iml" filepath="$PROJECT_DIR$/hr-user/hr-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hr-user/hr-user-web/hr-user-web.iml" filepath="$PROJECT_DIR$/hr-user/hr-user-web/hr-user-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/hr-worker/hr-worker/hr-worked-model/hr-worked-model.iml" filepath="$PROJECT_DIR$/hr-worker/hr-worker/hr-worked-model/hr-worked-model.iml" />
       <module fileurl="file://$PROJECT_DIR$/hr-worker/hr-worker/hr-worked-repository/hr-worked-repository.iml" filepath="$PROJECT_DIR$/hr-worker/hr-worker/hr-worked-repository/hr-worked-repository.iml" />
       <module fileurl="file://$PROJECT_DIR$/hr-worker/hr-worker/hr-worked-web/hr-worked-web.iml" filepath="$PROJECT_DIR$/hr-worker/hr-worker/hr-worked-web/hr-worked-web.iml" />

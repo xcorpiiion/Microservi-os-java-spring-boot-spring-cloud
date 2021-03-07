@@ -12,10 +12,10 @@
         <module name="hr-payroll-configuration" />
         <module name="hr-payroll-model" />
         <module name="hr-payroll-resource" />
+        <module name="hr-user-web" />
         <module name="hr-config-server" />
         <module name="hr-eureka-server" />
         <module name="hr-payroll-web" />
-        <module name="hr-user" />
       </profile>
       <profile name="Annotation profile for hr-worker" enabled="true">
         <sourceOutputDir name="../target/generated-sources/annotations" />
@@ -40,6 +40,7 @@
       <module name="hr-payroll-service" target="8" />
       <module name="hr-payroll-web" target="8" />
       <module name="hr-user" target="1.8" />
+      <module name="hr-user-web" target="8" />
       <module name="hr-worked-model" target="8" />
       <module name="hr-worked-repository" target="8" />
       <module name="hr-worked-web" target="8" />
@@ -60,6 +61,7 @@
       <module name="hr-payroll-service" options="-parameters" />
       <module name="hr-payroll-web" options="-parameters" />
       <module name="hr-user" options="-parameters" />
+      <module name="hr-user-web" options="-parameters" />
       <module name="hr-worked-model" options="-parameters" />
       <module name="hr-worked-repository" options="-parameters" />
       <module name="hr-worked-web" options="-parameters" />
