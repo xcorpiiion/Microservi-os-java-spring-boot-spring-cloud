@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="hr-payroll-service" />
         <module name="hr-api-gateway-zuul-web" />
+        <module name="hr-user-configuration" />
         <module name="hr-payroll-configuration" />
         <module name="hr-payroll-model" />
         <module name="hr-payroll-resource" />
@@ -41,6 +42,7 @@
       <module name="hr-payroll-service" target="8" />
       <module name="hr-payroll-web" target="8" />
       <module name="hr-user" target="1.8" />
+      <module name="hr-user-configuration" target="8" />
       <module name="hr-user-model" target="8" />
       <module name="hr-user-web" target="8" />
       <module name="hr-worked-model" target="8" />
@@ -63,6 +65,7 @@
       <module name="hr-payroll-service" options="-parameters" />
       <module name="hr-payroll-web" options="-parameters" />
       <module name="hr-user" options="-parameters" />
+      <module name="hr-user-configuration" options="-parameters" />
       <module name="hr-user-model" options="-parameters" />
       <module name="hr-user-web" options="-parameters" />
       <module name="hr-worked-model" options="-parameters" />
