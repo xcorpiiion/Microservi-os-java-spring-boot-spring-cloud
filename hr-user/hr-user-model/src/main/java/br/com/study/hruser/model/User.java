@@ -24,6 +24,7 @@ public class User implements Serializable {
     @GeneratedValue(strategy = IDENTITY)
     private Long id;
 
+    @Column(unique = true)
     private String name;
 
     private String email;
