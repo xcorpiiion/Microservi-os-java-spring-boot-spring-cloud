@@ -11,8 +11,7 @@ import static org.springframework.boot.SpringApplication.run;
 @EnableCircuitBreaker
 @EnableEurekaClient
 @EnableFeignClients
-@SpringBootApplication(scanBasePackages = {"br.com.study.hrroll", "br.com.study.hrroll.feignclients"})
-@EntityScan({"br.com.study.hrroll", "br.com.study.hrroll.feignclients"})
+@SpringBootApplication
 public class HrPayrollApplication {
 
     public static void main(String[] args) {

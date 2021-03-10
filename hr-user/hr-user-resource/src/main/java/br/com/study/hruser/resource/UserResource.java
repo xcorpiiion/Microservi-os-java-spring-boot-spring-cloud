@@ -10,9 +10,6 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.Optional;
 
-import static org.springframework.http.ResponseEntity.notFound;
-import static org.springframework.http.ResponseEntity.ok;
-
 @RestController
 @RequestMapping("/users")
 public class UserResource {
@@ -26,15 +23,15 @@ public class UserResource {
     @Autowired
     private ModelMapper modelMapper;
 
-    @GetMapping("/{id}")
+    @GetMapping(value = "/{id}")
     public ResponseEntity<User> findById(@PathVariable("id") Long id) {
         Optional<User> worker = this.repository.findById(id);
-        return worker.map(ResponseEntity::ok).orElseGet(() -> notFound().build());
+        return ResponseEntity.ok(worker.get());
     }
 
     @GetMapping("/search")
-    public ResponseEntity<User> findByEmail(@RequestParam() String email) {
+    public User findByEmail(@RequestParam String email) {
         User userFind = this.repository.findByEmail(email);
-        return ok(userFind);
+        return userFind;
     }
 }

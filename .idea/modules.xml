@@ -8,6 +8,9 @@
       <module fileurl="file://$PROJECT_DIR$/hr-config-server/hr-config-server.iml" filepath="$PROJECT_DIR$/hr-config-server/hr-config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/hr-eureka-server/hr-eureka-server.iml" filepath="$PROJECT_DIR$/hr-eureka-server/hr-eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/hr-oauth/hr-oauth.iml" filepath="$PROJECT_DIR$/hr-oauth/hr-oauth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hr-oauth/hr-oauth-model/hr-oauth-model.iml" filepath="$PROJECT_DIR$/hr-oauth/hr-oauth-model/hr-oauth-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hr-oauth/hr-oauth-resource/hr-oauth-resource.iml" filepath="$PROJECT_DIR$/hr-oauth/hr-oauth-resource/hr-oauth-resource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hr-oauth/hr-oauth-service/hr-oauth-service.iml" filepath="$PROJECT_DIR$/hr-oauth/hr-oauth-service/hr-oauth-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/hr-oauth/hr-oauth-web/hr-oauth-web.iml" filepath="$PROJECT_DIR$/hr-oauth/hr-oauth-web/hr-oauth-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/hr-payroll/hr-payroll.iml" filepath="$PROJECT_DIR$/hr-payroll/hr-payroll.iml" />
       <module fileurl="file://$PROJECT_DIR$/hr-payroll/hr-payroll-configuration/hr-payroll-configuration.iml" filepath="$PROJECT_DIR$/hr-payroll/hr-payroll-configuration/hr-payroll-configuration.iml" />
