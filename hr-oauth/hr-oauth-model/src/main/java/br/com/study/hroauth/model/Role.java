@@ -1,4 +1,4 @@
-package br.com.hroauth.model;
+package br.com.study.hroauth.model;
 
 import lombok.*;
 

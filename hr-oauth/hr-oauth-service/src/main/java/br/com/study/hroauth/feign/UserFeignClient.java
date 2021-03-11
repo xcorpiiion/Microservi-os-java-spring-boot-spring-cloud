@@ -1,6 +1,6 @@
 package br.com.study.hroauth.feign;
 
-import br.com.hroauth.model.User;
+import br.com.study.hroauth.model.User;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
@@ -12,6 +12,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 public interface UserFeignClient {
 
     @GetMapping("/search")
-    ResponseEntity<User> findByEmail(@RequestParam String email);
+    User findByEmail(@RequestParam String email);
 
 }

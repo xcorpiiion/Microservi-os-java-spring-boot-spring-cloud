@@ -42,6 +42,7 @@
       <module name="hr-config-server-web" target="8" />
       <module name="hr-eureka-server" target="1.8" />
       <module name="hr-oauth" target="1.8" />
+      <module name="hr-oauth-configuration" target="8" />
       <module name="hr-oauth-model" target="8" />
       <module name="hr-oauth-resource" target="8" />
       <module name="hr-oauth-service" target="8" />
@@ -73,6 +74,7 @@
       <module name="hr-config-server-web" options="-parameters" />
       <module name="hr-eureka-server" options="-parameters" />
       <module name="hr-oauth" options="-parameters" />
+      <module name="hr-oauth-configuration" options="-parameters" />
       <module name="hr-oauth-model" options="-parameters" />
       <module name="hr-oauth-resource" options="-parameters" />
       <module name="hr-oauth-service" options="-parameters" />

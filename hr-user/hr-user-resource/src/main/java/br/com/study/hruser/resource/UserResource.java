@@ -31,7 +31,6 @@ public class UserResource {
 
     @GetMapping("/search")
     public User findByEmail(@RequestParam String email) {
-        User userFind = this.repository.findByEmail(email);
-        return userFind;
+        return this.repository.findByEmail(email);
     }
 }
